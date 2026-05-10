@@ -1,6 +1,6 @@
-# AI Underwriting Copilot
+# Risk Decisioning Copilot
 
-The **AI Underwriting Copilot** turns pipeline outputs (risk score, decision, SHAP) into analyst-style credit reports with risk driver narratives, suggested conditions, and what-if simulation.
+**Risk Decisioning Copilot** turns pipeline outputs (risk score, decision, SHAP) into analyst-style credit reports with risk driver narratives, suggested conditions, and what-if simulation.
 
 ## Architecture
 

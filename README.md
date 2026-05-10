@@ -1,10 +1,10 @@
-# AI Credit Risk Platform
+# Risk Decisioning Copilot
 
 Production-ready credit risk assessment system with **AI-assisted underwriting**: industry-standard modeling, explainable AI, decision engine, scenario simulation, and automated credit reports.
 
 ## Overview
 
-End-to-end credit risk framework: feature engineering (WOE/IV), multi-algorithm training, evaluation (ROC-AUC, KS, Gini, PSI), SHAP explainability, monitoring, and an **AI Underwriting Copilot** that turns model outputs into analyst-style reports with risk driver narratives, suggested conditions, and what-if simulation.
+End-to-end credit risk framework: feature engineering (WOE/IV), multi-algorithm training, evaluation (ROC-AUC, KS, Gini, PSI), SHAP explainability, monitoring, and **Risk Decisioning Copilot** — an underwriting assistant that turns model outputs into analyst-style reports with risk driver narratives, suggested conditions, and what-if simulation.
 
 **Performance**: ROC-AUC improved from 0.683 to 0.78 (14% improvement) through advanced feature engineering and model optimization.
 
@@ -16,10 +16,10 @@ End-to-end credit risk framework: feature engineering (WOE/IV), multi-algorithm 
 - **Explainability**: SHAP values for feature importance and prediction explanations
 - **Monitoring**: Score drift detection (PSI), feature distribution tracking, automated alerting
 - **Decisioning**: Risk-based decision engine, profit optimization, early warning system
-- **AI Underwriting Copilot**: Risk driver narratives, suggested conditions, what-if simulation, automated credit reports
+- **Risk Decisioning Copilot**: Risk driver narratives, suggested conditions, what-if simulation, automated credit reports
 - **Portfolio risk insights**: Highest-default segment analysis and recommendations for risk managers
 
-## AI Underwriting Copilot Example
+## Risk Decisioning Copilot Example
 
 Recruiters and engineers can see at a glance what the system produces.
 
@@ -59,12 +59,12 @@ Reducing duration from 36 → 24 months
 ## System Architecture
 
 ```
-                    ┌───────────────────────┐
-                    │ AI Underwriting Copilot │
-                    │ Risk explanation       │
-                    │ What-if simulation     │
-                    │ Credit report          │
-                    └───────────┬────────────┘
+                    ┌───────────────────────────┐
+                    │ Risk Decisioning Copilot  │
+                    │ Risk explanation          │
+                    │ What-if simulation        │
+                    │ Credit report             │
+                    └──────────────┬──────────────┘
                                 │
                      SHAP Explainability
                                 │
@@ -165,7 +165,7 @@ monitor = ModelMonitor(baseline_scores)
 report = monitor.generate_monitoring_report(current_scores)
 ```
 
-### AI Underwriting Copilot & Portfolio Insights
+### Risk Decisioning Copilot & Portfolio Insights
 ```python
 from src.underwriting_copilot import UnderwritingCopilot, get_portfolio_risk_insights
 
@@ -230,6 +230,6 @@ This repo is built to showcase **fintech-ready** skills:
 - **Explainable AI** — SHAP, risk driver narratives, analyst-style reports  
 - **Decision systems** — Risk bands, approve/reject/conditions, policy rules  
 - **Monitoring** — PSI, score drift, alerting  
-- **Product thinking** — AI underwriting copilot, what-if simulation, portfolio insights  
+- **Product thinking** — Risk Decisioning Copilot, what-if simulation, portfolio insights  
 
 That combination is rare in ML portfolios and aligns with what companies like **PayPal**, **Groww**, **Pine Labs**, and **JPMorgan Chase** look for: someone who understands fintech systems, not just ML models.

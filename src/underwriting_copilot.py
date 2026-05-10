@@ -1,5 +1,5 @@
 """
-AI Underwriting Copilot — turns model outputs into human-style credit reports.
+Risk Decisioning Copilot — turns model outputs into human-style credit reports.
 
 This module consumes risk scores, decisions, and explainability outputs from the
 credit risk pipeline and produces structured underwriting reports, including

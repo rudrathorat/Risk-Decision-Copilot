@@ -1,5 +1,5 @@
 """
-AI Underwriting Copilot — CLI demo.
+Risk Decisioning Copilot — CLI demo.
 
 Runs a minimal pipeline (load data, feature engineering, train model, one applicant)
 and prints a sample credit report with risk drivers, suggested conditions, and

@@ -1,5 +1,5 @@
 """
-Credit Risk Modeling and Decision Framework
+Risk Decisioning Copilot — credit risk modeling and decision framework.
 A production-ready framework for consumer lending credit risk assessment.
 """
 
