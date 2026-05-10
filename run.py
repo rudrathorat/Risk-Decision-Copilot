@@ -132,7 +132,7 @@ def main():
     print(f"  Monitoring status: {monitoring_report['overall_status']}")
     print(f"  PSI: {monitoring_report['score_drift']['psi']:.4f}")
     
-    # 9. Risk Decisioning Copilot
+    # 9. Risk Decision Copilot
     print("\n[9/10] Generating AI underwriting reports...")
     copilot = UnderwritingCopilot()
     explainer = ModelExplainer(best_model, X_train_eng.columns.tolist())

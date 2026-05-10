@@ -9,5 +9,5 @@ shap>=0.42.0
 # Optional: extra model choice (code uses logistic/forest/GB if XGBoost missing)
 xgboost>=2.0.0
 
-# Streamlit UI for Risk Decisioning Copilot (app.py)
+# Streamlit UI for Risk Decision Copilot (app.py)
 streamlit>=1.28.0

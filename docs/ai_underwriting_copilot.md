@@ -1,6 +1,6 @@
-# Risk Decisioning Copilot
+# Risk Decision Copilot
 
-**Risk Decisioning Copilot** turns pipeline outputs (risk score, decision, SHAP) into analyst-style credit reports with risk driver narratives, suggested conditions, and what-if simulation.
+**Risk Decision Copilot** turns pipeline outputs (risk score, decision, SHAP) into analyst-style credit reports with risk driver narratives, suggested conditions, and what-if simulation.
 
 ## Architecture
 

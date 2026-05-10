@@ -4,7 +4,7 @@
 
 ```bash
 # 1. Navigate to project directory
-cd "Risk Decisioning Copilot"
+cd "Risk Decision Copilot"
 
 # 2. Create and activate virtual environment (optional but recommended)
 python -m venv venv
