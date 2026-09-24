@@ -1,0 +1,14 @@
+# Secrets
+.env
+.env.*
+key.txt
+*.key
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# macOS
+.DS_Store
